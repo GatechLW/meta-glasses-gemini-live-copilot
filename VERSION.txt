@@ -1,0 +1,10 @@
+Meta Glasses LEGO + General A/V Copilot
+Marketing version: 2.4
+Build: 6
+DAT SDK: Exact 1.0.1
+Modes: LEGO assistant + General A/V assistant
+Video: HEVC High 720x1280 / requested 15 FPS; Gemini image sampling 1 FPS; JPEG quality 0.9
+Capture: video-stream frames only; standalone camera.photo branch removed
+Audio: strict Meta glasses Bluetooth HFP input + output; no iPhone fallback
+Duplex: continuous microphone uplink during Gemini speech; server VAD + START_OF_ACTIVITY_INTERRUPTS
+Visual specialist: Gemini 3.8 Flash, LOW thinking level

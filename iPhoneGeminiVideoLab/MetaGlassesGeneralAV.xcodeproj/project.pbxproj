@@ -1,0 +1,184 @@
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    classes = {};
+    objectVersion = 56;
+    objects = {
+
+		39F71EA58C094422AAB655FF /* MetaGlassesDATManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaGlassesDATManager.swift; sourceTree = "<group>"; };
+		4BA3D6E5345E4A7E98ABA4C6 /* MetaGlassesDATManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F71EA58C094422AAB655FF /* MetaGlassesDATManager.swift */; };
+		DA8C5E77417A4328BCF4A914 /* GlassesHEVCFrameProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassesHEVCFrameProcessor.swift; sourceTree = "<group>"; };
+		3FEBF7B2E6FA4FB9933241BD /* GlassesHEVCFrameProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8C5E77417A4328BCF4A914 /* GlassesHEVCFrameProcessor.swift */; };
+		45DE87D3CAAC42A88A67BA96 /* XCRemoteSwiftPackageReference "meta-wearables-dat-ios" */ = {isa = XCRemoteSwiftPackageReference; repositoryURL = "https://github.com/facebook/meta-wearables-dat-ios"; requirement = {kind = exactVersion; version = 1.0.1; }; };
+		32338EF328B64D288C4D6452 /* MWDATCore */ = {isa = XCSwiftPackageProductDependency; package = 45DE87D3CAAC42A88A67BA96 /* XCRemoteSwiftPackageReference "meta-wearables-dat-ios" */; productName = MWDATCore; };
+		87D5C8D8B1164FA8A9C93F39 /* MWDATCamera */ = {isa = XCSwiftPackageProductDependency; package = 45DE87D3CAAC42A88A67BA96 /* XCRemoteSwiftPackageReference "meta-wearables-dat-ios" */; productName = MWDATCamera; };
+		9869648AB3284066BD4D6BD0 /* MWDATCore in Frameworks */ = {isa = PBXBuildFile; productRef = 32338EF328B64D288C4D6452 /* MWDATCore */; };
+		0E9EDA2AC6444306BFD739FC /* MWDATCamera in Frameworks */ = {isa = PBXBuildFile; productRef = 87D5C8D8B1164FA8A9C93F39 /* MWDATCamera */; };
+		5C3C3C2AED5D457AAF58C592 /* LEGOTutorialRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4650E7F1A72416CB3069D77 /* LEGOTutorialRepository.swift */; };
+		57AFBF7D01554108A0CF5621 /* LEGOStepManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB8B8C4F38E4C299A6414A2 /* LEGOStepManager.swift */; };
+		22053F7C4DE84A8283DACC78 /* LEGOVisualVerifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F8A451AB6D4DFCAAA64DA3 /* LEGOVisualVerifier.swift */; };
+		0426A5D4DD4342219461796A /* LEGOResources in Resources */ = {isa = PBXBuildFile; fileRef = 84285C810F094BC4A3DABE73 /* LEGOResources */; };
+		E4650E7F1A72416CB3069D77 /* LEGOTutorialRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEGOTutorialRepository.swift; sourceTree = "<group>"; };
+		9AB8B8C4F38E4C299A6414A2 /* LEGOStepManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEGOStepManager.swift; sourceTree = "<group>"; };
+		20F8A451AB6D4DFCAAA64DA3 /* LEGOVisualVerifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEGOVisualVerifier.swift; sourceTree = "<group>"; };
+		84285C810F094BC4A3DABE73 /* LEGOResources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = LEGOResources; sourceTree = "<group>"; };
+		2AAB41F6521346FAA8D507F5 /* LEGO */ = {isa = PBXGroup; children = (E4650E7F1A72416CB3069D77 /* LEGOTutorialRepository.swift */, 9AB8B8C4F38E4C299A6414A2 /* LEGOStepManager.swift */, 20F8A451AB6D4DFCAAA64DA3 /* LEGOVisualVerifier.swift */,); path = LEGO; sourceTree = "<group>"; };
+		A6216996EB0B7E8C214E329A /* iPhoneGeminiVideoLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhoneGeminiVideoLabApp.swift; sourceTree = "<group>"; };
+		C05F8EE3E32BEF7C56017811 /* iPhoneGeminiVideoLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6216996EB0B7E8C214E329A /* iPhoneGeminiVideoLabApp.swift */; };
+		71FD6A14722DB0FE010EE865 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		28C582E1CF724D2F616D13BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FD6A14722DB0FE010EE865 /* ContentView.swift */; };
+		6564A1ACF4BF089495DE5A09 /* SessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionViewModel.swift; sourceTree = "<group>"; };
+		29B22A4B4DB85F2519DD8103 /* SessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6564A1ACF4BF089495DE5A09 /* SessionViewModel.swift */; };
+		9C9A10079F4E9D1AA598EA47 /* GeminiConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiConfig.swift; sourceTree = "<group>"; };
+		21373989633AD258A8E1EB41 /* GeminiConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9A10079F4E9D1AA598EA47 /* GeminiConfig.swift */; };
+		915726B00F38087B5E79A847 /* GeminiKeychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiKeychain.swift; sourceTree = "<group>"; };
+		BADDA12970CB4C5422C09DE4 /* GeminiKeychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915726B00F38087B5E79A847 /* GeminiKeychain.swift */; };
+		720A0723ECF431EEE16BE107 /* GeminiLiveService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiLiveService.swift; sourceTree = "<group>"; };
+		D4B8C8F4A1A24D8EA7C0F611 /* GeminiFlashVisionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiFlashVisionService.swift; sourceTree = "<group>"; };
+		A5C3F6D28F6B4E0C9D2A71B3 /* GeminiFlashVisionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B8C8F4A1A24D8EA7C0F611 /* GeminiFlashVisionService.swift */; };
+		3922535FFB6C0C00A2B751BC /* GeminiLiveService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720A0723ECF431EEE16BE107 /* GeminiLiveService.swift */; };
+		CCA1AE754D2807705A1AFB34 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		16154695C8E30A8848E5C0CA /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA1AE754D2807705A1AFB34 /* AudioManager.swift */; };
+		A6E83EDA2D4AD64DC13AF1DD /* IPhoneCameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPhoneCameraManager.swift; sourceTree = "<group>"; };
+		BE30699C06442E2E9879CA27 /* IPhoneCameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E83EDA2D4AD64DC13AF1DD /* IPhoneCameraManager.swift */; };
+		DC3B0495AC524E2764B160CE /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		284813F5F35962375898C007 /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3B0495AC524E2764B160CE /* CameraPreview.swift */; };
+		C8C7F1291CBDA2FE65D9424D /* GeminiInputFrameRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiInputFrameRecorder.swift; sourceTree = "<group>"; };
+		B97C345253D073F2026763FA /* GeminiInputFrameRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C7F1291CBDA2FE65D9424D /* GeminiInputFrameRecorder.swift */; };
+		FEBFF0985BAE9141C5638D14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F7836008486C2DF85E1360C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		804DFB7CAF84DFEC049E8508 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEBFF0985BAE9141C5638D14 /* Assets.xcassets */; };
+		1EB80CCD67FBA34BB98B7887 /* MetaGlassesGeneralAV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetaGlassesGeneralAV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		076DBE1D809221390BDE7C85 /* Gemini */ = {isa = PBXGroup; children = (
+				9C9A10079F4E9D1AA598EA47 /* GeminiConfig.swift */,
+				915726B00F38087B5E79A847 /* GeminiKeychain.swift */,
+				720A0723ECF431EEE16BE107 /* GeminiLiveService.swift */,
+				D4B8C8F4A1A24D8EA7C0F611 /* GeminiFlashVisionService.swift */,
+				CCA1AE754D2807705A1AFB34 /* AudioManager.swift */,
+			); path = Gemini; sourceTree = "<group>"; };
+		001B4A5BFD613658061B90E0 /* Camera */ = {isa = PBXGroup; children = (
+				A6E83EDA2D4AD64DC13AF1DD /* IPhoneCameraManager.swift */,
+				DC3B0495AC524E2764B160CE /* CameraPreview.swift */,
+				39F71EA58C094422AAB655FF /* MetaGlassesDATManager.swift */,
+				DA8C5E77417A4328BCF4A914 /* GlassesHEVCFrameProcessor.swift */,
+			); path = Camera; sourceTree = "<group>"; };
+		532019CD54C59D1DB53BA31B /* Recording */ = {isa = PBXGroup; children = (
+				C8C7F1291CBDA2FE65D9424D /* GeminiInputFrameRecorder.swift */,
+			); path = Recording; sourceTree = "<group>"; };
+		C0D43ACEEB58A1F68BF5A238 /* MetaGlassesGeneralAV */ = {isa = PBXGroup; children = (
+				A6216996EB0B7E8C214E329A /* iPhoneGeminiVideoLabApp.swift */,
+				71FD6A14722DB0FE010EE865 /* ContentView.swift */,
+				6564A1ACF4BF089495DE5A09 /* SessionViewModel.swift */,
+				076DBE1D809221390BDE7C85 /* Gemini */,
+				001B4A5BFD613658061B90E0 /* Camera */,
+				532019CD54C59D1DB53BA31B /* Recording */,
+				2AAB41F6521346FAA8D507F5 /* LEGO */,
+				6F7836008486C2DF85E1360C /* Info.plist */,
+				FEBFF0985BAE9141C5638D14 /* Assets.xcassets */,
+			); path = iPhoneGeminiVideoLab; sourceTree = "<group>"; };
+		B17F65D3BF34E0D397329188 /* Products */ = {isa = PBXGroup; children = (1EB80CCD67FBA34BB98B7887 /* MetaGlassesGeneralAV.app */,); name = Products; sourceTree = "<group>"; };
+		8B4E7C852498B6A9DE203682 /* Main */ = {isa = PBXGroup; children = (C0D43ACEEB58A1F68BF5A238 /* MetaGlassesGeneralAV */, 84285C810F094BC4A3DABE73 /* LEGOResources */, B17F65D3BF34E0D397329188 /* Products */,); sourceTree = "<group>"; };
+		0BA2C7C748D7BA8FBFE471D8 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+				C05F8EE3E32BEF7C56017811 /* iPhoneGeminiVideoLabApp.swift in Sources */,
+				28C582E1CF724D2F616D13BE /* ContentView.swift in Sources */,
+				29B22A4B4DB85F2519DD8103 /* SessionViewModel.swift in Sources */,
+				21373989633AD258A8E1EB41 /* GeminiConfig.swift in Sources */,
+				BADDA12970CB4C5422C09DE4 /* GeminiKeychain.swift in Sources */,
+				3922535FFB6C0C00A2B751BC /* GeminiLiveService.swift in Sources */,
+				A5C3F6D28F6B4E0C9D2A71B3 /* GeminiFlashVisionService.swift in Sources */,
+				16154695C8E30A8848E5C0CA /* AudioManager.swift in Sources */,
+				BE30699C06442E2E9879CA27 /* IPhoneCameraManager.swift in Sources */,
+4BA3D6E5345E4A7E98ABA4C6 /* MetaGlassesDATManager.swift in Sources */,
+3FEBF7B2E6FA4FB9933241BD /* GlassesHEVCFrameProcessor.swift in Sources */,
+				284813F5F35962375898C007 /* CameraPreview.swift in Sources */,
+				B97C345253D073F2026763FA /* GeminiInputFrameRecorder.swift in Sources */,
+				5C3C3C2AED5D457AAF58C592 /* LEGOTutorialRepository.swift in Sources */,
+				57AFBF7D01554108A0CF5621 /* LEGOStepManager.swift in Sources */,
+				22053F7C4DE84A8283DACC78 /* LEGOVisualVerifier.swift in Sources */,
+			); runOnlyForDeploymentPostprocessing = 0; };
+		A90DB37AC3530E7F0A471E2E /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (804DFB7CAF84DFEC049E8508 /* Assets.xcassets in Resources */, 0426A5D4DD4342219461796A /* LEGOResources in Resources */,); runOnlyForDeploymentPostprocessing = 0; };
+		4C89D80D28C409FE3AC69B8E /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (9869648AB3284066BD4D6BD0 /* MWDATCore in Frameworks */, 0E9EDA2AC6444306BFD739FC /* MWDATCamera in Frameworks */,); runOnlyForDeploymentPostprocessing = 0; };
+		41A0918A511E0D0428E8F19F /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+                ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 6;
+                GENERATE_INFOPLIST_FILE = NO;
+                INFOPLIST_FILE = iPhoneGeminiVideoLab/Info.plist;
+                IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+                LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks");
+                MARKETING_VERSION = 2.4;
+                PRODUCT_BUNDLE_IDENTIFIER = com.example.metaglassescopilot;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SWIFT_VERSION = 5.0;
+                SWIFT_STRICT_CONCURRENCY = minimal;
+                TARGETED_DEVICE_FAMILY = 1;
+                ENABLE_PREVIEWS = YES;
+                SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+            }; name = Debug; };
+		9DE2AFAAFA1B6EFE91DBD8EE /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+                CLANG_ENABLE_MODULES = YES;
+                CLANG_ENABLE_OBJC_ARC = YES;
+                CODE_SIGN_STYLE = Automatic;
+                IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+                SDKROOT = iphoneos;
+                SWIFT_VERSION = 5.0;
+                DEBUG_INFORMATION_FORMAT = dwarf;
+                SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+            }; name = Debug; };
+		4830CED40DF018D8AB66D596 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
+                ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 6;
+                GENERATE_INFOPLIST_FILE = NO;
+                INFOPLIST_FILE = iPhoneGeminiVideoLab/Info.plist;
+                IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+                LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks");
+                MARKETING_VERSION = 2.4;
+                PRODUCT_BUNDLE_IDENTIFIER = com.example.metaglassescopilot;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SWIFT_VERSION = 5.0;
+                SWIFT_STRICT_CONCURRENCY = minimal;
+                TARGETED_DEVICE_FAMILY = 1;
+                ENABLE_PREVIEWS = YES;
+                SWIFT_OPTIMIZATION_LEVEL = "-O";
+            }; name = Release; };
+		19001F967AB70CA2E8DDE9BB /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
+                CLANG_ENABLE_MODULES = YES;
+                CLANG_ENABLE_OBJC_ARC = YES;
+                CODE_SIGN_STYLE = Automatic;
+                IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+                SDKROOT = iphoneos;
+                SWIFT_VERSION = 5.0;
+                DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+            }; name = Release; };
+		94E1D5645A54AF7782E68D68 /* Build configuration list */ = {isa = XCConfigurationList; buildConfigurations = (41A0918A511E0D0428E8F19F /* Debug */, 4830CED40DF018D8AB66D596 /* Release */,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		5F6BC7299CDB30348BB976AC /* Build configuration list */ = {isa = XCConfigurationList; buildConfigurations = (9DE2AFAAFA1B6EFE91DBD8EE /* Debug */, 19001F967AB70CA2E8DDE9BB /* Release */,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		74BEE817B6983B7B4E6F7F39 /* MetaGlassesGeneralAV */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = 94E1D5645A54AF7782E68D68 /* Build configuration list */;
+            buildPhases = (0BA2C7C748D7BA8FBFE471D8 /* Sources */, 4C89D80D28C409FE3AC69B8E /* Frameworks */, A90DB37AC3530E7F0A471E2E /* Resources */,);
+            packageProductDependencies = (32338EF328B64D288C4D6452 /* MWDATCore */, 87D5C8D8B1164FA8A9C93F39 /* MWDATCamera */,);
+            buildRules = (); dependencies = ();
+            name = MetaGlassesGeneralAV;
+            productName = MetaGlassesGeneralAV;
+            productReference = 1EB80CCD67FBA34BB98B7887 /* MetaGlassesGeneralAV.app */;
+            productType = "com.apple.product-type.application";
+        };
+		F95109C31D1C1B9C94E0203B /* Project object */ = {
+            isa = PBXProject;
+            attributes = { LastUpgradeCheck = 1500; TargetAttributes = { 74BEE817B6983B7B4E6F7F39 = { CreatedOnToolsVersion = 15.0; }; }; };
+            buildConfigurationList = 5F6BC7299CDB30348BB976AC /* Build configuration list */;
+            compatibilityVersion = "Xcode 14.0";
+            developmentRegion = en;
+            hasScannedForEncodings = 0;
+            knownRegions = (en, Base,);
+            mainGroup = 8B4E7C852498B6A9DE203682 /* Main */;
+            productRefGroup = B17F65D3BF34E0D397329188 /* Products */;
+            projectDirPath = "";
+            projectRoot = "";
+            packageReferences = (45DE87D3CAAC42A88A67BA96 /* XCRemoteSwiftPackageReference "meta-wearables-dat-ios" */,);
+            targets = (74BEE817B6983B7B4E6F7F39 /* MetaGlassesGeneralAV */,);
+        };
+    };
+    rootObject = F95109C31D1C1B9C94E0203B /* Project object */;
+}

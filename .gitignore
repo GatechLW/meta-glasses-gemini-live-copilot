@@ -1,0 +1,31 @@
+# macOS / Xcode
+.DS_Store
+DerivedData/
+build/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM/
+*.app/
+*.xcarchive/
+xcuserdata/
+.swiftpm/
+
+# Local secrets and signing material
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.mobileprovision
+
+# Local logs, captures, and exported experiment data
+*.log
+*.zip
+Recordings/
+Exports/
+LEGOFunctionCalls/
+GeneralAVFunctionCalls/

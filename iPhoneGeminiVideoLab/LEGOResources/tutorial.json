@@ -1,0 +1,222 @@
+{
+  "project": "LEGO 8-Piece Helicopter",
+  "version": "MVP-1.0",
+  "language": "zh-CN",
+  "images_are": "Real photographs supplied by the user; cropped only, no synthetic reconstruction.",
+  "total_parts": 8,
+  "total_steps": 8,
+  "inventory_image": "reference_images/inventory.jpg",
+  "orientation_note": "Left/right refer to source photograph viewpoint. For live camera comparison first account for rotations, mirrored view, and scale.",
+  "parts": [
+    {
+      "id": "P01",
+      "description": "P01 · 白色 2×4 长方形积木（8 个凸点）",
+      "step_added": 1
+    },
+    {
+      "id": "P02",
+      "description": "P02 · 蓝色船形／圆弧底机身件",
+      "step_added": 2
+    },
+    {
+      "id": "P03",
+      "description": "P03 · 白色 2×6 长方形积木（12 个凸点）",
+      "step_added": 3
+    },
+    {
+      "id": "P04",
+      "description": "P04 · 半透明蓝色斜坡件",
+      "step_added": 4
+    },
+    {
+      "id": "P05",
+      "description": "P05 · 不透明浅蓝色斜坡件 A（顶部 2 个凸点）",
+      "step_added": 5
+    },
+    {
+      "id": "P06",
+      "description": "P06 · 不透明浅蓝色斜坡件 B（顶部 2 个凸点）",
+      "step_added": 6
+    },
+    {
+      "id": "P07",
+      "description": "P07 · 深蓝色方块（顶部单凸点，用于固定旋翼）",
+      "step_added": 7
+    },
+    {
+      "id": "P08",
+      "description": "P08 · 黑色三叶螺旋桨",
+      "step_added": 8
+    }
+  ],
+  "steps": [
+    {
+      "title": "摆放白色短底板",
+      "step": 1,
+      "new_part_id": "P01",
+      "new_part": "P01 · 白色 2×4 长方形积木（8 个凸点）",
+      "source_instruction_zh": "从积木堆里面选出长方形的白色长条积木(上面一共有2排，8个突起点)，注意是竖直摆放",
+      "instruction_zh": "取白色 2×4 积木（两排、共 8 个凸点），平放在桌面中央，让长边沿参考照片的上下方向延伸。",
+      "verification_criteria_zh": [
+        "白色底板有两排凸点，每排 4 个，共 8 个。",
+        "积木平放于桌面，不是竖起来立在桌面上。特别注意，积木的朝向：长边在参考照片中呈纵向，非横向"
+      ],
+      "likely_error_zh": "不要误拿第 3 步所用的 2×6 白色长板。",
+      "before_image": "reference_images/state_00.jpg",
+      "after_image": "reference_images/state_01.jpg"
+    },
+    {
+      "title": "安装蓝色船形机身",
+      "step": 2,
+      "new_part_id": "P02",
+      "new_part": "P02 · 蓝色船形／圆弧底机身件",
+      "source_instruction_zh": "从积木堆里面选出船形的蓝色积木，将蓝色积木搭在已竖直摆放的白色长条积木上方，保持水平方向，且保持左右对称。同时，要漏出白色积木最前方的一排白色颗粒。",
+      "instruction_zh": "拿起蓝色船形积木，横向装在白色短底板上方，尽量居中并保持左右对称；白色底板的前端保留一排凸点露出。",
+      "verification_criteria_zh": [
+        "蓝色船形件沿参考图左右方向横放，而白色短底板仍沿前后方向。特别注意：白色短底板 应该位于 蓝色积木下方，白色积木在水平面内，保持呈竖向，蓝色积木保持横向",
+        "蓝色船形件没有完全遮住白色底板：前端仍能看到一排白色凸点。"
+      ],
+      "likely_error_zh": "不要为了完全覆盖底板而把蓝色件向前推过头。",
+      "before_image": "reference_images/state_01.jpg",
+      "after_image": "reference_images/state_02.jpg"
+    },
+    {
+      "title": "安装白色长板",
+      "step": 3,
+      "new_part_id": "P03",
+      "new_part": "P03 · 白色 2×6 长方形积木（12 个凸点）",
+      "source_instruction_zh": "从积木堆里面选出长方形的白色长条积木(上面一共有2排，12个突起点) 保持水平方向，搭在蓝色船行积木上面，且保证白色积木的最前端和蓝色船行积木最前端对其 (用户视角的最右侧)",
+      "instruction_zh": "选白色 2×6 长板（两排、共 12 个凸点），水平横放在蓝色船形机身顶部。使白色长板的右端与蓝色船形件右端对齐（均以参考照片视角为准）。",
+      "verification_criteria_zh": [
+        "顶部是 2×6 白色长板，而非第 1 步的 2×4。",
+        "白色长板横跨蓝色机身，上层长板右端与蓝色机身右端对齐。"
+      ],
+      "likely_error_zh": "用户/眼镜改变观察角度后，不能机械地把“右侧”理解为实时摄像头的右侧。",
+      "before_image": "reference_images/state_02.jpg",
+      "after_image": "reference_images/state_03.jpg"
+    },
+    {
+      "title": "安装透明蓝色机头斜坡",
+      "step": 4,
+      "new_part_id": "P04",
+      "new_part": "P04 · 半透明蓝色斜坡件",
+      "source_instruction_zh": "从积木堆里面选出蓝色半透明的斜坡积木, 将其放在白色积木最前端(用户视角的最右侧)，保持斜坡朝前，同时半透明的最前端和白色积木的最前端对其",
+      "instruction_zh": "选半透明蓝色斜坡，装在上层白色长板的最右端；透明斜坡朝向参考照片右侧，并使透明件的前缘和白色长板右端齐平。",
+      "verification_criteria_zh": [
+        "透明斜坡位于参考照片最右侧机头位置。",
+        "透明斜坡的斜面必须朝参考照片右侧，不能朝左侧。透明件的前缘与白色长板右端基本对齐。特别注意，积木的朝向：斜坡面应该朝右，即该方块右低左高"
+      ],
+      "likely_error_zh": "不要反向安装透明件，避免机头方向相反。",
+      "before_image": "reference_images/state_03.jpg",
+      "after_image": "reference_images/state_04.jpg"
+    },
+    {
+      "title": "安装机头后方的蓝色斜坡",
+      "step": 5,
+      "new_part_id": "P05",
+      "new_part": "P05 · 不透明浅蓝色斜坡件 A（顶部 2 个凸点）",
+      "source_instruction_zh": "从积木堆里面选出蓝色不透明的斜坡积木，头上有2个突起点，将其紧挨着蓝色半透明的斜坡积木摆放，但是不透明蓝色积木的斜坡方向朝向左侧(用户视角的左侧)，2个积木之间不能有白色颗粒漏出",
+      "instruction_zh": "取一块顶部有 2 个凸点的不透明浅蓝色斜坡件，紧靠透明斜坡的左侧安装。让这块不透明件的斜面朝左，两块相邻积木之间不要露出白色凸点。",
+      "verification_criteria_zh": [
+        "半透明蓝色斜坡与不透明蓝色斜坡紧邻。",
+        "不透明斜坡朝参考照片左侧；两块之间没有外露的白色凸点。特别注意，积木的朝向：斜坡面应该朝左，即该方块左低右高"
+      ],
+      "likely_error_zh": "注意这一步和第 6 步使用外形相似的两块浅蓝色件，朝向不同。",
+      "before_image": "reference_images/state_04.jpg",
+      "after_image": "reference_images/state_05.jpg"
+    },
+    {
+      "title": "安装尾部蓝色斜坡",
+      "step": 6,
+      "new_part_id": "P06",
+      "new_part": "P06 · 不透明浅蓝色斜坡件 B（顶部 2 个凸点）",
+      "source_instruction_zh": "从剩余积木里面，选出蓝色不透明的斜坡积木，头上有2个突起点 ，将其放在白色长条的最左边(用户视角)，盖住漏出来的4个白色突起点。同时要保证该积木的斜坡方向朝右(用户视角的右侧)",
+      "instruction_zh": "取剩下的一块不透明浅蓝色斜坡件，装在白色长板最左端，覆盖那里露出的 4 个白色凸点；这块斜坡的方向朝右。",
+      "verification_criteria_zh": [
+        "白色上层长板最左端原先外露的 4 个凸点被遮住。",
+        "左侧这块浅蓝色斜坡朝右，与第 5 步那块形成不同的轮廓。特别注意，积木的朝向：斜坡面应该朝右，即该方块右低左高"
+      ],
+      "likely_error_zh": "左端不能仍露出原本应被覆盖的四个白色凸点。",
+      "before_image": "reference_images/state_05.jpg",
+      "after_image": "reference_images/state_06.jpg"
+    },
+    {
+      "title": "安装主旋翼支座",
+      "needs_review": true,
+      "step": 7,
+      "new_part_id": "P07",
+      "new_part": "P07 · 深蓝色方块（顶部单凸点，用于固定旋翼）",
+      "source_instruction_zh": "从剩余积木里面，选择 一个深蓝色方块，其中有一个面有一个明显的凸起，适用于安装螺旋桨，将其安装在透明蓝色斜坡积木的上方，让该积木盖住透明积木和相邻不透明蓝色积木头上的4颗突起颗粒",
+      "instruction_zh": "选择带有明显单个旋翼安装凸点的深蓝色方块，将它安装在透明斜坡与相邻不透明蓝色积木的上方连接区域，按 After 参考照片覆盖对应的上方连接位置，单凸点朝上。",
+      "verification_criteria_zh": [
+        "深蓝色方块固定在机头上方、透明件附近。",
+        "用于旋翼安装的单个凸点朝上、清晰可见。"
+      ],
+      "likely_error_zh": "原文描述“盖住透明积木和相邻蓝色件头上的 4 颗凸点”，照片不能清晰逐个证实连接点；请以 After 图片作为几何参考，遮挡时不要臆测。",
+      "before_image": "reference_images/state_06.jpg",
+      "after_image": "reference_images/state_07.jpg"
+    },
+    {
+      "title": "安装黑色三叶旋翼",
+      "step": 8,
+      "new_part_id": "P08",
+      "new_part": "P08 · 黑色三叶螺旋桨",
+      "source_instruction_zh": "最后将三叶草的黑色螺旋桨，安装在上一个深蓝色方块的突起部位，用于固定螺旋桨",
+      "instruction_zh": "把黑色三叶旋翼的中心孔对准深蓝色方块顶部的单个凸点，并安装固定。",
+      "verification_criteria_zh": [
+        "黑色三叶旋翼安装在直升机顶部的深蓝色支座上。",
+        "旋翼中心连接到上一步的凸点，成品外观与第 8 步 After 图片一致。"
+      ],
+      "likely_error_zh": "旋翼顶部应连接到支座中心，不要只是放在旁边或偏离安装点。",
+      "before_image": "reference_images/state_07.jpg",
+      "after_image": "reference_images/state_08.jpg"
+    }
+  ],
+  "states": [
+    {
+      "state": 0,
+      "path": "reference_images/state_00.jpg",
+      "meaning": "Loose/unassembled starting arrangement"
+    },
+    {
+      "state": 1,
+      "path": "reference_images/state_01.jpg",
+      "meaning": "After step 1, before step 2"
+    },
+    {
+      "state": 2,
+      "path": "reference_images/state_02.jpg",
+      "meaning": "After step 2, before step 3"
+    },
+    {
+      "state": 3,
+      "path": "reference_images/state_03.jpg",
+      "meaning": "After step 3, before step 4"
+    },
+    {
+      "state": 4,
+      "path": "reference_images/state_04.jpg",
+      "meaning": "After step 4, before step 5"
+    },
+    {
+      "state": 5,
+      "path": "reference_images/state_05.jpg",
+      "meaning": "After step 5, before step 6"
+    },
+    {
+      "state": 6,
+      "path": "reference_images/state_06.jpg",
+      "meaning": "After step 6, before step 7"
+    },
+    {
+      "state": 7,
+      "path": "reference_images/state_07.jpg",
+      "meaning": "After step 7, before step 8"
+    },
+    {
+      "state": 8,
+      "path": "reference_images/state_08.jpg",
+      "meaning": "Finished helicopter after step 8"
+    }
+  ]
+}
